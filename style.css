@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lobster&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(234, 80, 175);
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+header a :hover{
+color: rgb(0, 0, 0);
+}
+
+header a{
+    text-decoration: none;
+}
+
+.hola{
+    margin: 15px;
+    color: aliceblue;
+    font-family: "Lobster", sans-serif;
+}
+
+body{
+    background-image: url('https://th.bing.com/th/id/R.0982accf678a0d4ebe7fa5addfe9a1e4?rik=umnsigK%2bTN0z9A&pid=ImgRaw&r=0')
+}
+
+header ul{
+list-style: none;
+display: flex;
+flex-direction: row;
+}
+
+header li{
+font-size: 13px;
+}
+
+header ul li{
+margin: 20px;
+margin-top: 30px;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+color: rgb(255, 255, 255);
+}
+
+.presentacion{
+text-align: center;
+margin: 30px 90px 30px 90px;
+font-family: "Lobster", sans-serif;
+background-color: rgb(208, 118, 250);
+background-image: url('https://th.bing.com/th/id/OIP.vQjZs38t4-eSOMFqIm3gYAHaEc?pid=ImgDet&rs=1');
+color: aliceblue;
+}
+
+
+.presentacion p{
+    font-family: "Caveat", cursive;
+    font-size: 25px;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.foto img{
+    width: 60px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+img{
+    width: 150px;
+}
+
+.columna :hover{
+    background-color: rgb(247, 140, 197);
+}
+
+.columna{
+    bckground-color: rgb(196, 52, 141);
+}
+
+p{
+font-size: 16px;
+color: black;
+font-family: 'Times New Roman', Times, serif;
+text-align: justify;
+}
+
+.contenedor{
+display: flex;
+flex-direction: row;
+width: 96%;
+margin: 2%;
+padding: 2%;
+}
+    
+
+.caja{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border: 2px solid #faf0f0;
+    background-color: rgb(196, 52, 141);
+    margin-top: 1px;
+    text-align: justify;    
+}
+
+    .caja-1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        border: 2px solid #faf0f0;
+        background-color: rgb(196, 52, 141);
+        margin-top: 1px;
+        margin-left: 185px;
+        text-align: justify;
+    }
+
+.caja-1 li{
+    text-align: center;
+    list-style-type: none;
+    margin-right: 29px;
+}
+
+.caja img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    }
+
+    .caja-1 img{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        }
+
+footer {
+    margin: 30px 90px 30px 90px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer p{
+    color: aliceblue;
+    text-align: center;
+}
+
